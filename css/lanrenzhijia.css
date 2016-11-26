@@ -1,0 +1,12 @@
+@charset "utf-8";
+/*menu*/
+#menu { width:781px; float:left;}
+#nav {margin:35px auto 0; width:900px; display:block; font-size:16px; float:left;position:relative;margin-left:22px;}
+#nav .mainlevel { float:left; border-right:1px solid #ccc; width:80px; text-align:center;padding:0 8px; /*IE6 only*/}
+#nav .mainlevel a {color:#333; text-decoration:none; line-height:30px; height:30px; display:block; width:80px; }
+#nav .mainlevel a:hover {color:#3B62A8; text-decoration:none;}
+#nav .mainlevel ul {display:none; position:absolute; left:388px; z-index:999;}
+#nav .mainlevel li {border-top:1px solid #fff; background:#3b62a8; width:96px;/*IE6 only*/}
+#nav .mainlevel li a { color:#fff; display:block; width:96px; text-align:center;}
+#nav .mainlevel li a:hover { color:#fff; background:#1D69EF; width:96px;}
+#nav .nopadding { border:none; padding-right:0; }
